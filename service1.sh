@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="/home/ubuntu/os_project/service1.log"
+LOG_FILE="/home/ubuntu/os-project-demo/service1.log"
 
 while true; do
   echo "$(date) - Service 1 running - VERSION=v1" >> "$LOG_FILE"
